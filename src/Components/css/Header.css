@@ -1,0 +1,28 @@
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0078ad;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.Temp {
+  display: flex;
+  align-items: center;
+  background-color: #0078ad;
+  color: white;
+  text-align: center;
+}
+.TempIcone {
+  color: yellow;
+}
+.Logo {
+  cursor: pointer;
+}
+.Memue {
+  cursor: pointer;
+}
+.MemueIcone {
+  color: white;
+}

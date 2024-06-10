@@ -1,0 +1,83 @@
+.HelthIssue {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.DayContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.DayBox0 {
+  background-color: #e0e4e8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 33.33%;
+  position: relative;
+  overflow: hidden;
+}
+.DayBox1 {
+  background-color: #e5ebf1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 33.33%;
+  position: relative;
+  overflow: hidden;
+}
+.DayBox2 {
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 33.33%;
+  position: relative;
+  overflow: hidden;
+}
+.DayBoxItem {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 33.33%;
+}
+.Cornet {
+  position: absolute;
+  text-align: center;
+  right: -33px;
+  bottom: -33px;
+  background-color: #d0d9e1;
+  transform: rotate(45deg);
+  width: 65px;
+  height: 65px;
+}
+.Cornet p {
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: 4px;
+  margin-left: 3px;
+}
